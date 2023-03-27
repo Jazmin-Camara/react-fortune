@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Inter:wght@400;600&display=swap');
+
+:root {
+  --white: #FFFFFF;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Fredoka', sans-serif;
+  font-family: 'Inter', sans-serif;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}

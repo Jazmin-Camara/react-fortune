@@ -1,0 +1,35 @@
+.containerInfo_title {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 4px 6px 0px rgba(0, 0, 0, 0.158);
+}
+
+.containerInfo_phrase {
+color: rgb(77, 74, 74);
+background-image: url("/images/rectangle.png");
+padding: 20px;
+text-align: center;
+background-size: contain;
+background-repeat: no-repeat;
+aspect-ratio: 2 ;
+background-position: center;
+display: flex;
+align-items: center;
+justify-content: center;
+max-width: 500px;
+}
+
+.containerInfo_author {
+    background-color: rgba(255, 255, 255, 0.808);
+    color: black;
+    font-weight: lighter;
+    text-align: center;
+    padding: 5px 10px;
+    max-width: max-content;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 10px;
+    left: 60%;
+    transform: translateX(-50);
+}
